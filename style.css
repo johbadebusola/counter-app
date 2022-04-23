@@ -1,0 +1,29 @@
+#container {
+  text-align:center;
+background:lightblue;
+padding:2em;
+width:200px;
+margin:5em auto;
+}
+
+#banner, #saveP{
+color:chocolate;
+}
+
+#increase, #save, #reset, #decrease{
+background:white;
+padding:1em;
+border-top-left-radius:12px;
+border-bottom-right-radius:12px;
+box-shadow:2px 2px 2px grey;
+font-family:monospace;
+}
+
+#increase:hover,
+#decrease:hover,
+#save:hover,
+#reset:hover{
+background:black;
+transition: 2s ease-in-out;
+color:white;
+}
